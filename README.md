@@ -45,8 +45,8 @@ See `docker-compose.yaml` for complete list of configurable options.
 
 ## 📂 Volumes
 
-- `./rootfs/config/caddy` - Data storage
-- `./rootfs/data/caddy` - Data storage
+- `./volumes/config/caddy` - Data storage
+- `./volumes/data/caddy` - Data storage
 
 ## 🔍 Logging
 
