@@ -19,8 +19,8 @@ services:
     environment:
       TZ: ${TZ:-America/New_York}
     volumes:
-      - ./rootfs/config/caddy:/config
-      - ./rootfs/data/caddy:/data
+      - ./volumes/config/caddy:/config
+      - ./volumes/data/caddy:/data
 
 networks:
   caddy:
